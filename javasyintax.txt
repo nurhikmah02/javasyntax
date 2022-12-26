@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<head>
+
+</head>
+<title>JS Variable</title>
+</head>
+<body>
+    <p id="variable"></p>
+    <script>
+      let x , y , z ;
+      x = 10;
+      y = "saya belajar javascript" 
+      z = 5 
+      document.getElementById("variable").innerHTML = (x + y);
+      document.getElementById("variable").innerHTML = (x + z);
+    </script>
+</body>
